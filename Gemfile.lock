@@ -1,3 +1,9 @@
+PATH
+  remote: crates/morrisey_bot
+  specs:
+    morrisey_bot (1.0.0)
+      helix_runtime (~> 0.6.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -169,6 +175,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   helix-rails (~> 0.5.0)
   listen (>= 3.0.5, < 3.2)
+  morrisey_bot!
   pg (~> 0.18)
   puma (~> 3.7)
   rails (~> 5.1.1)
