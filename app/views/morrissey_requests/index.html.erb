@@ -1,0 +1,8 @@
+<h1>Morrissey Bot</h1>
+
+<%= form_tag do %>
+  <%= text_field_tag :text, @query %>
+  <%= submit_tag "Tell me what you think!" %>
+<% end %>
+
+<p><%= @text %></p>
