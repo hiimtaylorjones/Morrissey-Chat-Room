@@ -19,8 +19,7 @@ ruby! {
                 "Is music addicting?" => String::from("Music is like a drug, but there are no rehabilitation centers"),
                 "What is it like to be passionate?" => String::from("The fire in the belly is essential, otherwise you become Michael Buble
                     – famous and meaningless."),
-                "Do you like long hair?" => String::from("Long hair is an unpardonable offense which should be punishable by death"),]
-
+                "Do you like long hair?" => String::from("Long hair is an unpardonable offense which should be punishable by death"),
                 _ => String::from("I dont' have much to say about this.")
             }
         }
