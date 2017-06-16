@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 Gem::Specification.new do |s|
-  s.name         = 'morrisey_bot'
+  s.name         = 'morrissey_bot'
   s.version      = '1.0.0'
   s.authors      = ['Ruby Developer']
   s.summary      = "A Helix project"
@@ -11,4 +11,5 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
 
   s.add_dependency 'helix_runtime', '~> 0.6.1'
+  s.add_development_dependency 'rspec', '~> 3.6'
 end

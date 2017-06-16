@@ -1,5 +1,5 @@
 require 'helix_runtime/build_task'
 
-HelixRuntime::BuildTask.new("morrisey_bot")
+HelixRuntime::BuildTask.new("morrissey_bot")
 
 task :default => :build

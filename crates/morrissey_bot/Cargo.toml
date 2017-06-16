@@ -1,5 +1,5 @@
 [package]
-name = "morrisey_bot"
+name = "morrissey_bot"
 version = "0.1.0"
 
 [lib]
