@@ -19,4 +19,13 @@ pretty neat.
 ## Dependency Information
 
 * Rails 5.1
-* Rust Nightly 
+* Rust Nightly
+
+## Deploying This
+
+If you're rolling with Heroku, this process is fairly straightforward:
+
+1. `heroku create`
+2. `heroku buildpacks:add https://github.com/hone/heroku-buildpack-rust`
+3. `heroku buildpacks:add heroku/ruby`
+4. Push to your heroku origin - `git push heroku [branch]`
