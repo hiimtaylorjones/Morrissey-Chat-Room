@@ -10,8 +10,8 @@ ruby! {
         def translate(text: String) -> String {
             match &*text {
                 "I don't like some people" => String::from("In my life, why do I smile At people who I'd much rather kick in the eye?"),
-                "I'm sad" => String::from(""),
-                "What's that thing you say about Joan or Arc?" => String::from("And now I know how Joan of Arc felt
+                "I'm sad" => String::from("I am Morrissey"),
+                "What's that thing you say about Joan of Arc?" => String::from("And now I know how Joan of Arc felt
                     Now I know how Joan of Arc felt
                     As the flames rose to her Roman nose
                     And her Walkman started to melt"),
