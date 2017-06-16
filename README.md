@@ -25,7 +25,7 @@ pretty neat.
 
 If you're rolling with Heroku, this process is fairly straightforward:
 
-1. `heroku create`
-2. `heroku buildpacks:add https://github.com/hone/heroku-buildpack-rust`
-3. `heroku buildpacks:add heroku/ruby`
+1. Create the Heroku application - `heroku create`
+2. Add the Rust Buildpack (order is important here)`heroku buildpacks:add https://github.com/hone/heroku-buildpack-rust`
+3. Add the Ruby Buildpack - `heroku buildpacks:add heroku/ruby`
 4. Push to your heroku origin - `git push heroku [branch]`
